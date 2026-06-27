@@ -2,6 +2,20 @@
 
 Welcome to my portfolio. This repository documents my hands-on labs, projects, and notes as I complete the Google Cybersecurity Professional Certificate.
 
+
+## 🎓 Professional Certifications & Qualifications
+
+* **Google Cybersecurity Professional Certificate** — *Coursera (In Progress)*
+  * Focus: Threat detection, network security, Python automation, and incident response frameworks.
+* **Commonwealth Bank Cyber Security Virtual Experience** — *Forage*
+  * Focus: Data log ingestion, custom SPL search query optimization, and dashboard creation inside Splunk Enterprise.
+* **Mastercard Cyber Security Virtual Experience** — *Forage*
+  * Focus: Corporate phishing email simulation design, risk mapping, and social engineering defense strategy.
+* **EY Technology Risk & Cyber Job Simulation** — *Forage*
+  * Focus: IT General Controls (ITGC) auditing, operational risk assessments, and executive metric reporting.
+
+
+
 ---
 
 ## Project 1: Incident Response Playbook (Phishing Triage)
