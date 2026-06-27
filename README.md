@@ -20,3 +20,14 @@ I created this playbook based on a mock corporate incident scenario. A small med
 ### Phase 3: Eradication & Recovery
 * **Malware Removal:** Scan the local system for malicious artifacts or persistence mechanisms.
 * **Evidence Handling:** Document the chronological steps to maintain a secure chain of custody for legal and insurance requirements.
+## Project 3: Enterprise Fraud Detection & SIEM Analytics (Splunk Enterprise)
+
+### Scenario Background
+Configured a localized Splunk Enterprise deployment to ingest, parse, and analyze simulated e-commerce transaction datasets. The objective was to track financial risk vectors, map out merchant anomalies, and isolate active instances of fraud.
+
+### Key Deliverables & Implementation
+* **Data Log Ingestion:** Successfully indexed unstructured transaction data silos into custom indexed fields.
+* **Fraud Risk Vectoring:** Wrote optimization search queries (SPL) to isolate high-risk patterns (`fraud = 1`) against specific merchant IDs, age demographics, and transactional spending categories.
+* **Executive PDF Reporting:** Designed and exported an executive-ready statistical data report (`panel_2-2026-06-25.pdf`) breaking down transaction volumes and anomaly alerts.
+
+*[Click here to view the official exported executive PDF report](./panel_2-2026-06-25.pdf)*
