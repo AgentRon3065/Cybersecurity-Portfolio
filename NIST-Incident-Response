@@ -1,0 +1,31 @@
+### 1. Incident Summary
+* What happened (Type of attack): 
+* Impacted systems/assets: 
+* Root cause/Entry point: 
+
+### 2. NIST Cybersecurity Framework Alignment
+
+#### Identify
+* Affected Assets: 
+* Exploited Vulnerabilities: 
+* Risk Impact: 
+
+#### Protect
+* Access Controls/MFA: 
+* Employee Training Needed: 
+* Data Protection/Backups: 
+
+#### Detect
+* Detection Method (How it was found): 
+* Log Evidence/Anomalies: 
+* Monitoring Improvements: 
+
+#### Respond
+* Immediate Containment Actions: 
+* Mitigation/Eradication Steps: 
+* Internal/External Communications: 
+
+#### Recover
+* Restoration of Systems: 
+* Patching and Hardening: 
+* Lessons Learned: 
