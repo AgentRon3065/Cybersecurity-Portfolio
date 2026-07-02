@@ -1,0 +1,31 @@
+### 1. Incident Summary
+* What happened (Type of attack): A Distributed Denial of Service (DDoS) attack flooded the corporate network with an overwhelming volume of incoming ICMP packets, causing severe network congestion.
+* Impacted systems/assets: Corporate network infrastructure, internal servers, and public-facing services became entirely unavailable to employees and external users.
+* Root cause/Entry point: Unconfigured network firewalls and lack of rate-limiting allowed spoofed external IP addresses to flood the network with malicious ICMP traffic without restriction.
+
+### 2. NIST Cybersecurity Framework Alignment
+
+#### Identify
+* Affected Assets: Main network switches, internal web servers, public gateways, and employee workstation connectivity.
+* Exploited Vulnerabilities: Lack of firewall filters for incoming ICMP packets and absence of automated traffic rate-limiting features.
+* Risk Impact: Critical disruption to daily business operations, lack of connectivity for remote workers, and total downtime of client-facing services.
+
+#### Protect
+* Access Controls/MFA: Enforced strict access policies on edge router configurations and restricted management panel privileges.
+* Employee Training Needed: Conduct routine IT infrastructure simulations to ensure operational teams recognize early baseline spikes in traffic.
+* Data Protection/Backups: Ensured critical network configurations and server states are routinely backed up and stored off-site.
+
+#### Detect
+* Detection Method (How it was found): System administrators noted massive latency spikes, followed by automated network alerts indicating total bandwidth starvation.
+* Log Evidence/Anomalies: Firewall and router logs showed millions of incoming ICMP echo requests originating from spoofed, randomized external IP addresses.
+* Monitoring Improvements: Implemented dedicated network monitoring software alongside an Intrusion Detection System (IDS) to flag abnormal volume spikes immediately.
+
+#### Respond
+* Immediate Containment Actions: Isolated non-critical services temporarily and completely blocked incoming ICMP traffic at the network perimeter.
+* Mitigation/Eradication Steps: Implemented brand new firewall filtering rules to check and drop spoofed packets, mitigating the resource flood.
+* Internal/External Communications: Notified leadership teams regarding the active outage and issued status updates to affected business units.
+
+#### Recover
+* Restoration of Systems: Restored full network traffic flow sequentially after establishing the firewall blocks, verifying normal operational thresholds.
+* Patching and Hardening: Standardized new baseline firewall configurations across all routers to strictly rate-limit incoming packet thresholds moving forward.
+* Lessons Learned: A formal post-incident review was held to permanently integrate automated DDoS mitigation steps into the company's emergency response plan.
