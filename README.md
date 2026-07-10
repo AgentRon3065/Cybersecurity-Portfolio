@@ -25,7 +25,6 @@ Welcome. This repository contains production-ready incident response documentati
 ### 2. [Enterprise Security Risk Audit](./Security-Audit.md)
 * **Objective:** Conducted a comprehensive internal security posture assessment for a scaling e-commerce/retail asset infrastructure.
 * **Impact:** Identified critical flaws in asset management and identity controls, providing a professional remediation roadmap.
-* <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/812eff8d-49bc-4318-b00e-302cf229ce4d" />
 ### 3. [Financial Fraud Detection & Behavior Analysis](./financial-fraud-detection-analysis.pdf)
 * **Objective:** Analyzed structured transactional logs to isolate fraudulent behavior vectors across user demographics and purchase categories.
 * **Key Skills:** Threat monitoring, behavioral risk assessment, data analytics.
