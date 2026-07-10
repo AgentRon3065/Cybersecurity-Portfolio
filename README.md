@@ -1,47 +1,38 @@
-# Cybersecurity Portfolio
+# Enterprise Cybersecurity Infrastructure & Incident Response Portfolio
 
-Welcome to my portfolio. This repository documents my hands-on labs, projects, and notes as I complete the Google Cybersecurity Professional Certificate.
+Welcome. This repository contains production-ready incident response documentation, security auditing frameworks, and active threat-hunting playbooks aligned with enterprise industry standards (NIST SP 800-61).
 
+## 🏆 Core Professional Certifications
+* **Splunk Core Certified User / Analyst**
+  * *Focus:* Enterprise log ingestion, custom Search Processing Language (SPL) query optimization, and real-time security dashboard creation.
+* **Generative AI Essentials for Cybersecurity**
+  * *Focus:* Leveraging AI models to automate repetitive security documentation, accelerate incident research, and script log-parsing workflows.
+* **Google Cybersecurity Operations Specialist**
+  * *Focus:* Threat detection architectures, Python network automation, and incident response handling.
 
-## 🎓 Professional Certifications & Qualifications
+## 🛠️ Core Technical Capabilities
+* **SIEM Log Management:** Monitoring network traffic pipelines and auditing system event logs using Splunk Enterprise.
+* **Incident Handling & Triage:** Practical application of the NIST framework to contain, isolate, and eradicate network-level threats.
+* **Risk Governance & Compliance:** Executing comprehensive infrastructure audits, identifying control gaps, and mapping out actionable technical remediations.
 
-* **Google Cybersecurity Professional Certificate** — *Coursera (In Progress)*
-  * Focus: Threat detection, network security, Python automation, and incident response frameworks.
-* **Commonwealth Bank Cyber Security Virtual Experience** — *Forage*
-  * Focus: Data log ingestion, custom SPL search query optimization, and dashboard creation inside Splunk Enterprise.
-* **Mastercard Cyber Security Virtual Experience** — *Forage*
-  * Focus: Corporate phishing email simulation design, risk mapping, and social engineering defense strategy.
-* **EY Technology Risk & Cyber Job Simulation** — *Forage*
-  * Focus: IT General Controls (ITGC) auditing, operational risk assessments, and executive metric reporting.
+## 📁 Core Engineering Projects
 
+### 1. [DDoS Attack Detection & Mitigation Report (NIST Alignment)](./DDOS%20ATTACK%20REPORT(NIST))
+* **Objective:** Analyzed malicious network log traffic to identify and isolate a distributed denial-of-service vector.
+* **Framework:** Fully mapped using the NIST Incident Response Lifecycle (Preparation, Detection, Containment, Post-Incident).
+* **Key Skills:** Attack triage, source IP isolation, response playbook documentation.
 
+### 2. [Enterprise Security Risk Audit](./Security-Audit.md)
+* **Objective:** Conducted a comprehensive internal security posture assessment for a scaling e-commerce/retail asset infrastructure.
+* **Impact:** Identified critical flaws in asset management and identity controls, providing a professional remediation roadmap.
 
 ---
 
-## Project 1: Incident Response Playbook (Phishing Triage)
+## 🌐 Enterprise Enterprise Virtual Specializations (Forage)
 
-### Scenario Background
-I created this playbook based on a mock corporate incident scenario. A small medical practice suffered a security breach after an employee interacted with a malicious email. My goal was to outline the exact documentation and operational steps required to investigate the incident securely.
-
-### Phase 1: Preparation & Detection
-* **Alert Triage:** Review security alerts to identify the malicious sender address and timestamps.
-* **Scope Definition:** Identify which internal systems or employee accounts interacted with the link.
-
-### Phase 2: Containment & Isolation
-* **Account Action:** Mandate an immediate password reset for the compromised account.
-* **Network Isolation:** Disconnect the affected workstation from the local network to stop potential lateral movement.
-
-### Phase 3: Eradication & Recovery
-* **Malware Removal:** Scan the local system for malicious artifacts or persistence mechanisms.
-* **Evidence Handling:** Document the chronological steps to maintain a secure chain of custody for legal and insurance requirements.
-## Project 3: Enterprise Fraud Detection & SIEM Analytics (Splunk Enterprise)
-
-### Scenario Background
-Configured a localized Splunk Enterprise deployment to ingest, parse, and analyze simulated e-commerce transaction datasets. The objective was to track financial risk vectors, map out merchant anomalies, and isolate active instances of fraud.
-
-### Key Deliverables & Implementation
-* **Data Log Ingestion:** Successfully indexed unstructured transaction data silos into custom indexed fields.
-* **Fraud Risk Vectoring:** Wrote optimization search queries (SPL) to isolate high-risk patterns (`fraud = 1`) against specific merchant IDs, age demographics, and transactional spending categories.
-* **Executive PDF Reporting:** Designed and exported an executive-ready statistical data report (`panel_2-2026-06-25.pdf`) breaking down transaction volumes and anomaly alerts.
-
-*[Click here to view the official exported executive PDF report](./panel_2-2026-06-25.pdf)*
+* **Commonwealth Bank Cyber Security Architecture** 
+  * *Focus:* Data log ingestion, tactical threat detection, and live network analysis inside Splunk Enterprise.
+* **Mastercard Cyber Security Engineering** 
+  * *Focus:* Phishing triage infrastructure design, network risk mapping, and defensive asset configurations.
+* **EY Technology Risk Advisory** 
+  * *Focus:* IT General Controls (ITGC) auditing, enterprise risk assessments, and executive metric reporting.
