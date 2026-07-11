@@ -41,7 +41,8 @@ Designed and deployed a localized, resource-lean defensive security micro-lab in
 ---
 
 ## 📸 Technical Evidence
-<img width="481" height="136" alt="image" src="https://github.com/user-attachments/assets/0c3af07e-a03b-4f5e-829b-3dbea50e92c7" />
+<img width="1026" height="484" alt="image" src="https://github.com/user-attachments/assets/74607e85-3f74-405e-a15f-13203be0e646" />
+
 
 
 
