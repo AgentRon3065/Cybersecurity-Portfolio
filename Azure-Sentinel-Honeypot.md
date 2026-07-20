@@ -22,7 +22,8 @@ This project demonstrates the end-to-end engineering of a cloud-native Security 
 ### Phase 1: Threat Hunting via KQL
 To test the pipeline, an adversarial simulation was conducted from an external Kali Linux environment using `Hydra` to stress-test the RDP interface (Port 3389). A custom Kusto Query Language (KQL) query targeting Event ID 4625 (Failed Logon) was executed to parse the raw database and cleanly map out the attacker's footprint.
 
-<img width="1600" height="900" alt="Screenshot 2026-07-20 235825" src="https://github.com/user-attachments/assets/a669ab4d-a20c-439d-ba0c-79b9beded44e" />
+<img width="1600" height="900" alt="Screenshot 2026-07-20 235825" src="https://github.com/user-attachments/assets/ed12f616-8227-448c-b7b7-da32238013f2" />
+
 
 
 ### Phase 2: Detection Engineering & Rule Logic
