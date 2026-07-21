@@ -1,6 +1,6 @@
 # Enterprise Cybersecurity Infrastructure & Incident Response Portfolio
 
-Welcome. This repository contains production-ready incident response documentation, security auditing frameworks, and active threat-hunting playbooks aligned with enterprise industry standards (NIST SP 800-61).
+Welcome. This repository contains a incident response documentation, security auditing frameworks, and active threat-hunting playbooks aligned with enterprise industry standards (NIST SP 800-61).
 
 ## 🏆 Core Professional Certifications
 * **Splunk Core Certified User / Analyst**
